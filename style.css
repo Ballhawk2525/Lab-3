@@ -1,0 +1,64 @@
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+}
+
+.main {
+    width: 75%;
+    height: 350px;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: #CCC;
+}
